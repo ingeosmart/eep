@@ -107,6 +107,13 @@
         tms: false,
         attribution: 'Equipo SIG Área Metropolitana de Cúcuta'
       }).addTo(map);
+	 
+	  	  	var ccobbas = L.tileLayer('./corrbio/{z}/{x}/{y}.png', {
+        minZoom: 8,
+        maxZoom: 15,
+        tms: false,
+        attribution: 'Equipo SIG Área Metropolitana de Cúcuta'
+      }).addTo(map);
 	  
 		var ccobbas = L.tileLayer('./cobbas/{z}/{x}/{y}.png', {
         minZoom: 8,
